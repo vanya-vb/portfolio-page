@@ -262,10 +262,6 @@ body:not(.user-is-tabbing) a:focus {
     background: transparent;
 }
 
-.tel {
-    margin-left: 1.5rem;
-}
-
 .link__text {
     position: relative;
     display: inline-block;
@@ -451,6 +447,10 @@ body:not(.user-is-tabbing) a:focus {
     align-items: start;
 }
 
+.other-projects-title {
+    font-size: 2rem;
+}
+
 .work__box.other-projects ul li {
     list-style: none;
 }
@@ -483,7 +483,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 35%;
+    flex: 0 0 38%;
 }
 
 .work__list {
@@ -566,6 +566,23 @@ body:not(.user-is-tabbing) a:focus {
 
 .contact__info {
     max-width: var(--container-medium-width);
+}
+
+.tel {
+    margin-left: 1.5rem;
+}
+
+@media(max-width: 517px) {
+    .contact__info {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-items: start;
+    }
+
+    .tel {
+        margin-left: 0;
+    }
 }
 
 /* --------------------------------------- */
