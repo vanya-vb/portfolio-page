@@ -535,7 +535,6 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .about__photo {
-    width: 500px;
     border-radius: 10%;
 }
 
@@ -552,7 +551,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 901px) {
     .about__text {
-        flex: 0 0 36%;
+        flex: 0 0 70%;
     }
 
     .about__photo-container {
